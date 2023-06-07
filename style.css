@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'inter';
+}
+
+#logodnc{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+
+}
