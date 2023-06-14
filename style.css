@@ -66,6 +66,7 @@
   color: white;
   text-align: center;
   font-size: 27px;
+  margin-bottom: 50px;
 }
 
 #divcards {
@@ -81,7 +82,7 @@
   display: none;
 }
 
-#card3 {
+#Bruna {
   display: none;
 }
 
