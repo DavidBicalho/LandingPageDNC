@@ -1,54 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <title>LandingPageDNC</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--MENU SUPERIOR-->
     <div id="menuSuperior">
-        <a href=""><img src="./assets/LogoDNC.png" id="logodnc" alt="img."></a>
+      <a href=""><img src="./assets/LogoDNC.png" id="logodnc" alt="img." /></a>
 
-        <h1 id="titulo-menusuperior">Dê os primeiros passos da <br> 
-            sua carreira em Tecnologia </h1>
+      <h1 id="titulo-menusuperior">
+        Dê os primeiros passos da <br />
+        sua carreira em Tecnologia
+      </h1>
 
-        <p id="texto-menusuperior">Inscreva-se no curso gratuito de Introdução à <br> 
-            Tecnologia da DNC School e aprenda os principais <br>
-            fundamentos para construir experiências efetivas.</p>
+      <p id="texto-menusuperior">
+        Inscreva-se no curso gratuito de Introdução à <br />
+        Tecnologia da DNC School e aprenda os principais <br />
+        fundamentos para construir experiências efetivas.
+      </p>
     </div>
     <!--MENU DE INFORMAÇOES-->
     <div id="menuInformacional">
-        
-        <p class="textoinformativo"><img src="./assets/iconeCertificado.png" class="icone" id="certificado" alt="img"> Certificado de conclusão</p>      
-        <p class="textoinformativo"><img src="./assets/iconeRelogio.png" class="icone" id="relogio" alt="img"> 4 horas de conteudo</p>
-        <p class="textoinformativo"><img src="./assets/iconeCamera.png" class="icone" id="camera" alt="img"> Aulas online gravadas</p>
+      <p class="textoinformativo">
+        <img src="./assets/iconeCertificado.png" class="icone" id="certificado" alt="img"/>
+        Certificado de conclusão
+      </p>
+      <p class="textoinformativo">
+        <img src="./assets/iconeRelogio.png"  class="icone" id="relogio" alt="img"/>
+        4 horas de conteudo
+      </p>
+      <p class="textoinformativo">
+        <img src="./assets/iconeCamera.png" class="icone" id="camera" alt="img"/>
+        Aulas online gravadas
+      </p>
     </div>
-    
+
     <!--VIDEO-->
     <div id="secaovideo">
-        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
-            <h1 id="titulovideo">Aprenda com especialistas e <br>
-                comece seu primeiro projeto
-            </h1><br><br>
-    
-            <p id="textovideo">Conheça o processo de desenvolvimento e entenda como utilizar <br>
-                os principais métodos e ferramentas da área para resolver <br>
-                problemas complexos. <br><br>
-    
-                Conquiste seu certificado e desenvolva um projeto prático para <br>
-                aplicar seus conhecimentos.
-            </p>
-        </div>
-        
+      <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4"title="DNC - A escola inovadora que forma profissionais de alta perfomance"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div>
+        <h1 id="titulovideo">
+          Aprenda com especialistas e <br />
+          comece seu primeiro projeto
+        </h1>
+        <br /><br />
+
+        <p id="textovideo">
+          Conheça o processo de desenvolvimento e entenda como utilizar <br />
+          os principais métodos e ferramentas da área para resolver <br />
+          problemas complexos. <br /><br />
+
+          Conquiste seu certificado e desenvolva um projeto prático para <br />
+          aplicar seus conhecimentos.
+        </p>
+      </div>
+    </div>
+
+    <!--CARROSSEL-->
+    <div id="carrossel">
+      <h1 id="titulocarrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+      <div id="divcards">
+        <img id="setaesquerda" class="seta" src="./assets/setaEsquerda.png" alt="img"/>
+        <img id="card1" class="card" src="./assets/card1.svg" alt="img" />
+        <img id="card2" class="card" src="./assets/card2.svg" alt="img" />
+        <img id="card3" class="card" src="./assets/card3.svg" alt="img" />
+        <img id="setadireita" class="seta" src="./assets/setaDireita.png" alt="img"/>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

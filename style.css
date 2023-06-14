@@ -1,59 +1,90 @@
-*{
-    margin: 0px;
-    font-family: 'inter';
+* {
+  margin: 0px;
+  font-family: "inter";
 }
 
-#logodnc{
-    margin-top: 50px;
-    margin-left: 50px;
+#logodnc {
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
-#titulo-menusuperior{
-    margin-left: 150px;
-    margin-top: 50px;
+#titulo-menusuperior {
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
-#texto-menusuperior{
-    margin-left: 150px;
-    margin-top: 35px;
-    padding-bottom: 100px;
-
+#texto-menusuperior {
+  margin-left: 150px;
+  margin-top: 35px;
+  padding-bottom: 100px;
 }
 
-#menuSuperior{
-    background-image: url("./assets/FundoSuperior.jpg");
-    color: aliceblue;
+#menuSuperior {
+  background-image: url("./assets/FundoSuperior.jpg");
+  color: aliceblue;
 }
 
-#menuInformacional{
-    background-color: #EAECE5;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+#menuInformacional {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
 }
 
-.icone{
-    margin: 50px 0px 50px 100px;
-    padding: 25px;
+.icone {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
 }
 
-#secaovideo{
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+#secaovideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
 }
 
-.textoinformativo{
-    margin: 50px 50px 50px 75px;
-    display: flex;
-    align-items: center;
+.textoinformativo {
+  margin: 50px 50px 50px 75px;
+  display: flex;
+  align-items: center;
 }
 
-#titulovideo{
-    color: #247ba0;
-    margin-top: 50px;
+#titulovideo {
+  color: #247ba0;
+  margin-top: 50px;
 }
 
-#video{
-    margin: 50px 25px 50px 100px;
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+  background-color: #247ba0;
+  padding: 50px;
+}
+
+#titulocarrossel {
+  color: white;
+  text-align: center;
+  font-size: 27px;
+}
+
+#divcards {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.card {
+  margin-left: 50px;
+}
+
+#setaesquerda {
+  display: none;
+}
+
+#card3 {
+  display: none;
+}
+
+.seta {
+  margin-top: 30%;
 }
