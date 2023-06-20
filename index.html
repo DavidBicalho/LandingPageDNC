@@ -81,12 +81,14 @@
       <h1 id="tituloformulario">
         Comece agora mesmo e dê o próximo passo da sua carreira
       </h1>
+      
+      <form action="https://api.sheetmonkey.io/form/wdVufm5ubVjQxQpyH7D16o" method="post">
 
-      <form action="">
-        <input type="text" placeholder="Nome"> <br>
-        <input type="email" placeholder="E-Mail"> <br>
-        <input type="number" placeholder="Telefone"> <br>
-        <button>Acesse a ementa grátis</button>
+        <input type="text" placeholder="Nome" name="Name" required> <br>
+        <input type="email" placeholder="Email" name="Email" required> <br>
+        <input type="number" placeholder="Telefone" name="Phone" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" /> <br>
+        <button type="submit">Acesse a ementa grátis</button>
       </form>
     </div>
 
